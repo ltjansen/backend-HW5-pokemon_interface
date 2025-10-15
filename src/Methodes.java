@@ -11,7 +11,7 @@ public class Methodes {
         return attacks;
     }
 
-testing
+
 
     /*De volgende 16 methodes zijn aanvallen*/
     void surf(Pokemon name, Pokemon enemy);
