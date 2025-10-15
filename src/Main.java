@@ -2,6 +2,18 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
+
+//voor de reviewer:
+
+//bij het testen lijkt het alsof de pokemon van de gymowner toegang heeft tot alle soorten aanvallen,
+//ongeacht het type, ik kwam er alleen niet meer achter hoe dat kwam
+//ook lijkt de enemyType in de switchcases niet altijd goed door te komen, omdat nog vaak de error message
+//van de default case verschijnt: 'this pokemon type should not exist'
+//ik had helaas geen tijd meer om dit uit te zoeken, de bonusopdrachten ben ik evenmin aan toegekomen
+//alvast bedankt voor de feedback!
+
+
+
 public class Main {
     // Deze 4 constanten worden gebruikt om tekst met kleur te printen in de console.
     // Hier hoef je niks mee te doen

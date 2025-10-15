@@ -1,22 +1,31 @@
 import java.util.List;
 
 public class PokemonTrainer {
-    private String name;
-    private List<Pokemon> pokemons;
+    String name;
+    List<Pokemon> pokemons;
 
 //    constructor
-    public PokemonTrainer(String user, List<Pokemon> pokemonList) {
-
+    public PokemonTrainer(String name, List<Pokemon> pokemons) {
+        this.name = name;
+        this.pokemons = pokemons;
     }
 
-//    methods
-
+//    getters
     public String getName() {
         return name;
     }
 
     public List<Pokemon> getPokemons() {
         return pokemons;
+    }
+
+//    setters
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPokemons(List<Pokemon> pokemons) {
+        this.pokemons = pokemons;
     }
 
 }
