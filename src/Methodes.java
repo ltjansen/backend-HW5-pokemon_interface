@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.*;
 
 // Deze klasse dient als naslagwerk en dient uiteindelijk verwijderd te worden voor je het huiswerk inlevert.
@@ -9,7 +11,7 @@ public class Methodes {
         return attacks;
     }
 
-
+testing
 
     /*De volgende 16 methodes zijn aanvallen*/
     void surf(Pokemon name, Pokemon enemy);
